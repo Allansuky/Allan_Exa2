@@ -20,7 +20,7 @@
         </form>
     </header>
     <main>
-        <h1>¡Bienvenido, {{ auth()->user()->name }}!</h1>
+        <h1>¡Bienvenido, {{ auth()->user()->name }}! </h1>
         <p>Has iniciado sesión correctamente.</p>
     </main>
 </body>
